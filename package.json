@@ -1,0 +1,25 @@
+{
+  "name": "addispay-checkout",
+  "version": "1.0.0",
+  "description": "addispay checkout for node.js",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "isomorphic-unfetch": "^4.0.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}
